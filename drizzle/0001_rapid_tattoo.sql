@@ -1,0 +1,1 @@
+ALTER TABLE `post` ADD `author_avatar_url` text DEFAULT 'https://robohash.org/twitreads?set=set4' NOT NULL;
