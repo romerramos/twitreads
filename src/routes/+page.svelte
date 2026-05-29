@@ -16,7 +16,6 @@
 	class="sticky top-0 z-10 border-b border-white/10 bg-[#050505]/85 px-5 py-4 backdrop-blur-xl"
 >
 	<p class="text-sm font-semibold text-white/45">Twitreads</p>
-	<h1 class="text-xl font-bold tracking-tight">Home</h1>
 </section>
 
 <section class="border-b border-white/10 px-5 py-5">
