@@ -5,6 +5,21 @@ import { sveltekit } from '@sveltejs/kit/vite';
 
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
+	ssr: {
+		external: [
+			'@libsql/client',
+			'libsql',
+			'@libsql/darwin-arm64',
+			'@libsql/darwin-x64',
+			'@libsql/linux-arm-gnueabihf',
+			'@libsql/linux-arm-musleabihf',
+			'@libsql/linux-arm64-gnu',
+			'@libsql/linux-arm64-musl',
+			'@libsql/linux-x64-gnu',
+			'@libsql/linux-x64-musl',
+			'@libsql/win32-x64-msvc'
+		]
+	},
 	test: {
 		expect: { requireAssertions: true },
 		projects: [
